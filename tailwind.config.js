@@ -2,8 +2,8 @@ module.exports = {
   theme: {
     scale: {
       "100": "1",
-      "101": "1.01"
-    }
+      "101": "1.01",
+    },
   },
   variants: [
     "responsive",
@@ -17,10 +17,7 @@ module.exports = {
     "focus",
     "active",
     "visited",
-    "disabled"
+    "disabled",
   ],
-  plugins: [
-    require("tailwindcss-transitions")(),
-    require("tailwindcss-transforms")()
-  ]
+  plugins: [],
 };
