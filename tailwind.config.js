@@ -1,4 +1,5 @@
 module.exports = {
+  purge: ["./src/**/*.html", "./src/**/*.{j,t}sx"],
   theme: {
     scale: {
       "100": "1",
