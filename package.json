@@ -1,6 +1,6 @@
 {
   "name": "parcel-typescript-react-tailwind",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "index.html",
   "license": "MIT",
   "description": "Trying-out Tailwind CSS with Parcel",
@@ -10,15 +10,15 @@
     "clean": "rm -rf .cache dist"
   },
   "devDependencies": {
-    "@types/react": "^16.9.32",
+    "@types/react": "^16.9.44",
     "@types/react-dom": "^16.9.8",
     "parcel-bundler": "^1.12.4",
-    "typescript": "^3.9.2"
+    "typescript": "^3.9.7"
   },
   "dependencies": {
     "postcss-import": "^12.0.1",
-    "react": "^16.12.0",
+    "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tailwindcss": "^1.4.6"
+    "tailwindcss": "^1.6.2"
   }
 }
