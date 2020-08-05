@@ -238,7 +238,7 @@ There isn’t much to complain about the library but,
 - Gradients, icons, animations ~~and transitions~~ (**update: transitions and transforms are there after v1.2.0**) aren’t built-in. Adding them can be complicated. 
 - Advanced controls such as switches, calendars, tables, floating notifications, modals etc. are not available. 
 - Generated CSS can get quite large if you’re using a lot of features. Using purgecss eliminates this but it’s kind of ugly because it does a string search; not proper parsing. But, again, it doesn’t know what template language/framework we’re using. 
-- Lack of IDE support (yet). There are vscode extensions, but none for react. This is not exactly a fault of Tailwind CSS and probably tools will emerge if Tailwind CSS becomes popular. 
+- Lack of IDE support (yet). But there are vscode extensions, ~~but none for react~~ (**Update: bradlc.vscode-tailwindcss worked for react**). 
 
 # Demo
 
@@ -248,6 +248,8 @@ There isn’t much to complain about the library but,
 
 
 I created a template with the above plugins as a starting point [here](https://github.com/umstek/parcel-typescript-react-tailwind) on GitHub. 
+
+Or, [see it in action](https://parcel-typescript-react-tailwind.vercel.app/). 
 
 Tailwind also supports custom themes, variants, plugins etc., but that’s outside the scope of this short post. The documentation is your friend. 
 
