@@ -253,6 +253,19 @@ Or, [see it in action](https://parcel-typescript-react-tailwind.vercel.app/).
 
 Tailwind also supports custom themes, variants, plugins etc., but that’s outside the scope of this short post. The documentation is your friend. 
 
+# Updates
+
+## 2020 October Update 1
+Get ready for v2.0 upgrade, remove warning messages.  
+
+`tailwind.config.js`. 
+```js
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
+```
+
 # Resources
 
 https://www.tailwindtoolbox.com/
