@@ -21,4 +21,8 @@ module.exports = {
     "disabled",
   ],
   plugins: [],
+  future: {
+    removeDeprecatedGapUtilities: true,
+    purgeLayersByDefault: true,
+  },
 };
