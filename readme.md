@@ -190,6 +190,7 @@ Gosh! It’s huge. This is not the size you want your production CSS bundle to b
 // });
 module.exports = {
   plugins: [
+    require("postcss-import"),
     require("tailwindcss"),
     require("autoprefixer"),
     require("postcss-nested"),
