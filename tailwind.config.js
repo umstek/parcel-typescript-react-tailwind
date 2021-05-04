@@ -1,28 +1,17 @@
 module.exports = {
-  purge: ["./src/**/*.html", "./src/**/*.{j,t}sx"],
+  mode: "jit",
+  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/**/*.html"],
+  darkMode: false, // or 'media' or 'class'
   theme: {
-    scale: {
-      "100": "1",
-      "101": "1.01",
+    extend: {
+      scale: {
+        100: "1",
+        101: "1.01",
+      },
     },
   },
-  variants: [
-    "responsive",
-    "group-hover",
-    "focus-within",
-    "first",
-    "last",
-    "odd",
-    "even",
-    "hover",
-    "focus",
-    "active",
-    "visited",
-    "disabled",
-  ],
-  plugins: [],
-  future: {
-    removeDeprecatedGapUtilities: true,
-    purgeLayersByDefault: true,
+  variants: {
+    extend: {},
   },
+  plugins: [],
 };

@@ -1,10 +1,10 @@
 import * as React from "react";
 
-import "~styles/main.pcss";
+import "../styles/main.pcss";
 
-import Card from "~components/Card/index";
+import Card from "../components/Card/index";
 
-import cardImage from "../../static/vitalik-vynarchyk-0PePaKnEmuM-unsplash.jpg";
+import cardImage from "url:../../static/vitalik-vynarchyk-0PePaKnEmuM-unsplash.jpg";
 
 export const App = () => (
   <div className="h-screen flex items-center justify-center">
