@@ -1,12 +1,12 @@
 {
   "name": "parcel-typescript-react-tailwind",
   "version": "0.2.1",
-  "main": "index.html",
+  "main": "dist/index.html",
   "license": "MIT",
   "description": "Trying-out Tailwind CSS with Parcel",
   "scripts": {
     "start": "parcel serve src/index.html --open",
-    "build": "parcel build src/index.html --dist-dir dist",
+    "build": "parcel build --dist-dir dist src/index.html",
     "clean": "rm -rf .parcel-cache dist"
   },
   "devDependencies": {
