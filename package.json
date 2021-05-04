@@ -1,6 +1,6 @@
 {
   "name": "parcel-typescript-react-tailwind",
-  "version": "0.2.1",
+  "version": "1.0.1",
   "main": "dist/index.html",
   "license": "MIT",
   "description": "Trying-out Tailwind CSS with Parcel",
