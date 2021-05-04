@@ -5,8 +5,8 @@
   "license": "MIT",
   "description": "Trying-out Tailwind CSS with Parcel",
   "scripts": {
-    "start": "parcel src/index.html --open",
-    "build": "parcel build src/index.html",
+    "start": "parcel serve src/index.html --open",
+    "build": "parcel build src/index.html --dist-dir dist",
     "clean": "rm -rf .parcel-cache dist"
   },
   "devDependencies": {
