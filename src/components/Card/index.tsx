@@ -14,7 +14,7 @@ export default function Card({
   tags?: string[];
 }) {
   return (
-    <div className="max-w-md rounded overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 ease-out transform hover:scale-101">
+    <div className="max-w-md rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-200 ease-out transform hover:scale-101">
       {image && <img className="w-full" src={image} alt={imageAlt} />}
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{title}</div>
