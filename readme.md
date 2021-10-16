@@ -1,6 +1,6 @@
 # Trying-out Tailwind CSS with Parcel
 
-A few months ago, I was searching for a UI kit to use in one of my hobby react apps. I found some good-looking React UI kits like [Ant Design](http://ant.design), [BlueprintJS](https://blueprintjs.com) and [Evergreen](https://evergreen.segment.com) but sometimes the bloat becomes unbearable and customizability becomes a priority. [Material UI](https://material-ui.com) is said to be the most popular one, but, no thanks; not a fan of material UI. Anyway, the discussion on available react UI kits is a topic for a different post. Here what happened was that I tried to create my own UI kit with SASS and soon found out that there is a gap between my idea on how the components should look and my knowledge on how to use CSS properly.
+Some years ago, I was searching for a UI kit to use in one of my hobby react apps. I found some good-looking React UI kits like [Ant Design](http://ant.design), [BlueprintJS](https://blueprintjs.com) and [Evergreen](https://evergreen.segment.com) but sometimes the bloat becomes unbearable and customizability becomes a priority. [Material UI](https://material-ui.com) is said to be the most popular one, but, no thanks; not a fan of material UI. Anyway, the discussion on available react UI kits is a topic for a different post. Here what happened was that I tried to create my own UI kit with SASS and soon found out that there is a gap between my idea on how the components should look and my knowledge on how to use CSS properly.
 
 # What is Tailwind CSS?
 
