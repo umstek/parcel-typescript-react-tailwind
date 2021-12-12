@@ -1,7 +1,6 @@
 module.exports = {
-  mode: "jit",
-  purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/**/*.html"],
-  darkMode: false, // or 'media' or 'class'
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/**/*.html"],
+  darkMode: 'media',
   theme: {
     extend: {
       scale: {
@@ -9,9 +8,6 @@ module.exports = {
         101: "1.01",
       },
     },
-  },
-  variants: {
-    extend: {},
   },
   plugins: [],
 };
