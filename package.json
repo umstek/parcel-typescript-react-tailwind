@@ -14,7 +14,7 @@
     "@types/react-dom": "17.0.11",
     "autoprefixer": "10.4.2",
     "parcel": "2.2.1",
-    "postcss": "8.4.5",
+    "postcss": "8.4.12",
     "typescript": "4.5.5"
   },
   "dependencies": {
