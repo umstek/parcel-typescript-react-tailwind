@@ -12,7 +12,7 @@
     "@parcel/transformer-image": "2.7.0",
     "@types/react": "18.0.21",
     "@types/react-dom": "18.0.6",
-    "autoprefixer": "10.4.12",
+    "autoprefixer": "10.4.13",
     "parcel": "2.7.0",
     "postcss": "8.4.17",
     "process": "0.11.10",
