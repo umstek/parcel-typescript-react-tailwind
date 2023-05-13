@@ -1,6 +1,6 @@
 {
   "name": "parcel-typescript-react-tailwind",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "license": "MIT",
   "description": "Trying-out Tailwind CSS with Parcel",
   "scripts": {
@@ -16,7 +16,7 @@
     "parcel": "2.8.3",
     "postcss": "8.4.23",
     "process": "0.11.10",
-    "typescript": "4.9.5"
+    "typescript": "5.0.4"
   },
   "dependencies": {
     "postcss-import": "15.1.0",
