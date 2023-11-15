@@ -9,11 +9,11 @@
     "clean": "rm -rf .parcel-cache dist"
   },
   "devDependencies": {
-    "@parcel/transformer-image": "2.10.2",
+    "@parcel/transformer-image": "2.10.3",
     "@types/react": "18.2.37",
     "@types/react-dom": "18.2.15",
     "autoprefixer": "10.4.16",
-    "parcel": "2.10.2",
+    "parcel": "2.10.3",
     "postcss": "8.4.31",
     "process": "0.11.10",
     "typescript": "5.2.2"
