@@ -7,7 +7,7 @@ settings:
 dependencies:
   postcss-import:
     specifier: 16.1.0
-    version: 16.1.0(postcss@8.4.40)
+    version: 16.1.0(postcss@8.4.41)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -30,13 +30,13 @@ devDependencies:
     version: 18.3.0
   autoprefixer:
     specifier: 10.4.20
-    version: 10.4.20(postcss@8.4.40)
+    version: 10.4.20(postcss@8.4.41)
   parcel:
     specifier: 2.12.0
-    version: 2.12.0(postcss@8.4.40)(typescript@5.5.4)
+    version: 2.12.0(postcss@8.4.41)(typescript@5.5.4)
   postcss:
-    specifier: 8.4.40
-    version: 8.4.40
+    specifier: 8.4.41
+    version: 8.4.41
   process:
     specifier: 0.11.10
     version: 0.11.10
@@ -298,7 +298,7 @@ packages:
       - '@swc/helpers'
     dev: true
 
-  /@parcel/config-default@2.12.0(@parcel/core@2.12.0)(postcss@8.4.40)(typescript@5.5.4):
+  /@parcel/config-default@2.12.0(@parcel/core@2.12.0)(postcss@8.4.41)(typescript@5.5.4):
     resolution: {integrity: sha512-dPNe2n9eEsKRc1soWIY0yToMUPirPIa2QhxcCB3Z5RjpDGIXm0pds+BaiqY6uGLEEzsjhRO0ujd4v2Rmm0vuFg==}
     peerDependencies:
       '@parcel/core': ^2.12.0
@@ -308,7 +308,7 @@ packages:
       '@parcel/core': 2.12.0
       '@parcel/namer-default': 2.12.0(@parcel/core@2.12.0)
       '@parcel/optimizer-css': 2.12.0(@parcel/core@2.12.0)
-      '@parcel/optimizer-htmlnano': 2.12.0(@parcel/core@2.12.0)(postcss@8.4.40)(typescript@5.5.4)
+      '@parcel/optimizer-htmlnano': 2.12.0(@parcel/core@2.12.0)(postcss@8.4.41)(typescript@5.5.4)
       '@parcel/optimizer-image': 2.12.0(@parcel/core@2.12.0)
       '@parcel/optimizer-svgo': 2.12.0(@parcel/core@2.12.0)
       '@parcel/optimizer-swc': 2.12.0(@parcel/core@2.12.0)
@@ -474,12 +474,12 @@ packages:
       - '@swc/helpers'
     dev: true
 
-  /@parcel/optimizer-htmlnano@2.12.0(@parcel/core@2.12.0)(postcss@8.4.40)(typescript@5.5.4):
+  /@parcel/optimizer-htmlnano@2.12.0(@parcel/core@2.12.0)(postcss@8.4.41)(typescript@5.5.4):
     resolution: {integrity: sha512-MfPMeCrT8FYiOrpFHVR+NcZQlXAptK2r4nGJjfT+ndPBhEEZp4yyL7n1y7HfX9geg5altc4WTb4Gug7rCoW8VQ==}
     engines: {node: '>= 12.0.0', parcel: ^2.12.0}
     dependencies:
       '@parcel/plugin': 2.12.0(@parcel/core@2.12.0)
-      htmlnano: 2.1.0(postcss@8.4.40)(svgo@2.8.0)(typescript@5.5.4)
+      htmlnano: 2.1.0(postcss@8.4.41)(svgo@2.8.0)(typescript@5.5.4)
       nullthrows: 1.1.1
       posthtml: 0.16.6
       svgo: 2.8.0
@@ -1348,7 +1348,7 @@ packages:
     resolution: {integrity: sha512-8+9WqebbFzpX9OR+Wa6O29asIogeRMzcGtAINdpMHHyAg10f05aSFVBbcEqGf/PXw1EjAZ+q2/bEBg3DvurK3Q==}
     dev: true
 
-  /autoprefixer@10.4.20(postcss@8.4.40):
+  /autoprefixer@10.4.20(postcss@8.4.41):
     resolution: {integrity: sha512-XY25y5xSv/wEoqzDyXXME4AFfkZI0P23z6Fs3YgymDnKJkCGOnkL0iTxCa85UTqaSgfcqyf3UA6+c7wUvx/16g==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
@@ -1360,7 +1360,7 @@ packages:
       fraction.js: 4.3.7
       normalize-range: 0.1.2
       picocolors: 1.0.1
-      postcss: 8.4.40
+      postcss: 8.4.41
       postcss-value-parser: 4.2.0
     dev: true
 
@@ -1773,7 +1773,7 @@ packages:
       function-bind: 1.1.2
     dev: false
 
-  /htmlnano@2.1.0(postcss@8.4.40)(svgo@2.8.0)(typescript@5.5.4):
+  /htmlnano@2.1.0(postcss@8.4.41)(svgo@2.8.0)(typescript@5.5.4):
     resolution: {integrity: sha512-jVGRE0Ep9byMBKEu0Vxgl8dhXYOUk0iNQ2pjsG+BcRB0u0oDF5A9p/iBGMg/PGKYUyMD0OAGu8dVT5Lzj8S58g==}
     peerDependencies:
       cssnano: ^6.0.0
@@ -1803,7 +1803,7 @@ packages:
         optional: true
     dependencies:
       cosmiconfig: 8.3.6(typescript@5.5.4)
-      postcss: 8.4.40
+      postcss: 8.4.41
       posthtml: 0.16.6
       svgo: 2.8.0
       timsort: 0.3.0
@@ -2183,12 +2183,12 @@ packages:
     resolution: {integrity: sha512-5VyHfHY3cd0iza71JepYG50My+YUbrFtGoUz2ooEydPyPM7Aai/JW098juLr+RG6+rDJuzNNTsEQu2DZa1A41A==}
     dev: true
 
-  /parcel@2.12.0(postcss@8.4.40)(typescript@5.5.4):
+  /parcel@2.12.0(postcss@8.4.41)(typescript@5.5.4):
     resolution: {integrity: sha512-W+gxAq7aQ9dJIg/XLKGcRT0cvnStFAQHPaI0pvD0U2l6IVLueUAm3nwN7lkY62zZNmlvNx6jNtE4wlbS+CyqSg==}
     engines: {node: '>= 12.0.0'}
     hasBin: true
     dependencies:
-      '@parcel/config-default': 2.12.0(@parcel/core@2.12.0)(postcss@8.4.40)(typescript@5.5.4)
+      '@parcel/config-default': 2.12.0(@parcel/core@2.12.0)(postcss@8.4.41)(typescript@5.5.4)
       '@parcel/core': 2.12.0
       '@parcel/diagnostic': 2.12.0
       '@parcel/events': 2.12.0
@@ -2270,41 +2270,41 @@ packages:
     engines: {node: '>= 6'}
     dev: false
 
-  /postcss-import@15.1.0(postcss@8.4.40):
+  /postcss-import@15.1.0(postcss@8.4.41):
     resolution: {integrity: sha512-hpr+J05B2FVYUAXHeK1YyI267J/dDDhMU6B6civm8hSY1jYJnBXxzKDKDswzJmtLHryrjhnDjqqp/49t8FALew==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.40
+      postcss: 8.4.41
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
     dev: false
 
-  /postcss-import@16.1.0(postcss@8.4.40):
+  /postcss-import@16.1.0(postcss@8.4.41):
     resolution: {integrity: sha512-7hsAZ4xGXl4MW+OKEWCnF6T5jqBw80/EE9aXg1r2yyn1RsVEU8EtKXbijEODa+rg7iih4bKf7vlvTGYR4CnPNg==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       postcss: ^8.0.0
     dependencies:
-      postcss: 8.4.40
+      postcss: 8.4.41
       postcss-value-parser: 4.2.0
       read-cache: 1.0.0
       resolve: 1.22.8
     dev: false
 
-  /postcss-js@4.0.1(postcss@8.4.40):
+  /postcss-js@4.0.1(postcss@8.4.41):
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==}
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
     dependencies:
       camelcase-css: 2.0.1
-      postcss: 8.4.40
+      postcss: 8.4.41
     dev: false
 
-  /postcss-load-config@4.0.2(postcss@8.4.40):
+  /postcss-load-config@4.0.2(postcss@8.4.41):
     resolution: {integrity: sha512-bSVhyJGL00wMVoPUzAVAnbEoWyqRxkjv64tUl427SKnPrENtq6hJwUojroMz2VB+Q1edmi4IfrAPpami5VVgMQ==}
     engines: {node: '>= 14'}
     peerDependencies:
@@ -2317,17 +2317,17 @@ packages:
         optional: true
     dependencies:
       lilconfig: 3.1.1
-      postcss: 8.4.40
+      postcss: 8.4.41
       yaml: 2.4.1
     dev: false
 
-  /postcss-nested@6.0.1(postcss@8.4.40):
+  /postcss-nested@6.0.1(postcss@8.4.41):
     resolution: {integrity: sha512-mEp4xPMi5bSWiMbsgoPfcP74lsWLHkQbZc3sY+jWYd65CUwXrUaTp0fmNpa01ZcETKlIgUdFN/MpS2xZtqL9dQ==}
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
     dependencies:
-      postcss: 8.4.40
+      postcss: 8.4.41
       postcss-selector-parser: 6.0.16
     dev: false
 
@@ -2342,8 +2342,8 @@ packages:
   /postcss-value-parser@4.2.0:
     resolution: {integrity: sha512-1NNCs6uurfkVbeXG4S8JFT9t19m45ICnif8zWLd5oPSZ50QnwMfK+H3jv408d4jw/7Bttv5axS5IiHoLaVNHeQ==}
 
-  /postcss@8.4.40:
-    resolution: {integrity: sha512-YF2kKIUzAofPMpfH6hOi2cGnv/HrUlfucspc7pDyvv7kGdqXrfj8SCl/t8owkEgKEuu8ZcRjSOxFxVLqwChZ2Q==}
+  /postcss@8.4.41:
+    resolution: {integrity: sha512-TesUflQ0WKZqAvg52PWL6kHgLKP6xB6heTOdoYM0Wt2UHyxNa4K25EZZMgKns3BH1RLVbZCREPpLY0rhnNoHVQ==}
     engines: {node: ^10 || ^12 || >=14}
     dependencies:
       nanoid: 3.3.7
@@ -2608,11 +2608,11 @@ packages:
       normalize-path: 3.0.0
       object-hash: 3.0.0
       picocolors: 1.0.1
-      postcss: 8.4.40
-      postcss-import: 15.1.0(postcss@8.4.40)
-      postcss-js: 4.0.1(postcss@8.4.40)
-      postcss-load-config: 4.0.2(postcss@8.4.40)
-      postcss-nested: 6.0.1(postcss@8.4.40)
+      postcss: 8.4.41
+      postcss-import: 15.1.0(postcss@8.4.41)
+      postcss-js: 4.0.1(postcss@8.4.41)
+      postcss-load-config: 4.0.2(postcss@8.4.41)
+      postcss-nested: 6.0.1(postcss@8.4.41)
       postcss-selector-parser: 6.0.16
       resolve: 1.22.8
       sucrase: 3.35.0
