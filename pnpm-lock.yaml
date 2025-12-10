@@ -15,8 +15,8 @@ dependencies:
     specifier: 18.3.1
     version: 18.3.1(react@18.3.1)
   tailwindcss:
-    specifier: 3.4.18
-    version: 3.4.18
+    specifier: 3.4.19
+    version: 3.4.19
 
 devDependencies:
   '@parcel/transformer-image':
@@ -2289,8 +2289,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /tailwindcss@3.4.18:
-    resolution: {integrity: sha512-6A2rnmW5xZMdw11LYjhcI5846rt9pbLSabY5XPxo+XWdxwZaFEn47Go4NzFiHu9sNNmr/kXivP1vStfvMaK1GQ==}
+  /tailwindcss@3.4.19:
+    resolution: {integrity: sha512-3ofp+LL8E+pK/JuPLPggVAIaEuhvIz4qNcf3nA1Xn2o/7fb7s/TYpHhwGDv1ZU3PkBluUVaF8PyCHcm48cKLWQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
