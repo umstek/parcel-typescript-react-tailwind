@@ -23,11 +23,11 @@ devDependencies:
     specifier: 2.16.4
     version: 2.16.4(@parcel/core@2.16.4)
   '@types/react':
-    specifier: 18.3.27
-    version: 18.3.27
+    specifier: 18.3.28
+    version: 18.3.28
   '@types/react-dom':
     specifier: 18.3.7
-    version: 18.3.7(@types/react@18.3.27)
+    version: 18.3.7(@types/react@18.3.28)
   autoprefixer:
     specifier: 10.4.24
     version: 10.4.24(postcss@8.5.6)
@@ -1324,16 +1324,16 @@ packages:
     resolution: {integrity: sha512-ga8y9v9uyeiLdpKddhxYQkxNDrfvuPrlFb0N1qnZZByvcElJaXthF1UhvCh9TLWJBEHeNtdnbysW7Y6Uq8CVng==}
     dev: true
 
-  /@types/react-dom@18.3.7(@types/react@18.3.27):
+  /@types/react-dom@18.3.7(@types/react@18.3.28):
     resolution: {integrity: sha512-MEe3UeoENYVFXzoXEWsvcpg6ZvlrFNlOQ7EOsvhI3CfAXwzPfO8Qwuxd40nepsYKqyyVQnTdEfv68q91yLcKrQ==}
     peerDependencies:
       '@types/react': ^18.0.0
     dependencies:
-      '@types/react': 18.3.27
+      '@types/react': 18.3.28
     dev: true
 
-  /@types/react@18.3.27:
-    resolution: {integrity: sha512-cisd7gxkzjBKU2GgdYrTdtQx1SORymWyaAFhaxQPK9bYO9ot3Y5OikQRvY0VYQtvwjeQnizCINJAenh/V7MK2w==}
+  /@types/react@18.3.28:
+    resolution: {integrity: sha512-z9VXpC7MWrhfWipitjNdgCauoMLRdIILQsAEV+ZesIzBq/oUlxk0m3ApZuMFCXdnS4U7KrI+l3WRUEGQ8K1QKw==}
     dependencies:
       '@types/prop-types': 15.7.11
       csstype: 3.2.3
