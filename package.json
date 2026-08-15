@@ -7,6 +7,7 @@
     "dev": "parcel serve src/index.html -p 8080 --open",
     "build": "parcel build --dist-dir dist src/index.html",
     "lint": "oxlint .",
+    "typecheck": "tsc --noEmit",
     "format": "oxfmt .",
     "format:check": "oxfmt --check .",
     "clean": "rm -rf .parcel-cache dist",
@@ -27,7 +28,7 @@
     "oxlint": "1.78.0",
     "parcel": "2.16.4",
     "postcss": "^8.5.26",
-    "typescript": "5.9.3"
+    "typescript": "7.0.2"
   },
   "packageManager": "pnpm@11.18.0"
 }
