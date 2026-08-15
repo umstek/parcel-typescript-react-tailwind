@@ -1,30 +1,33 @@
 {
   "name": "parcel-typescript-react-tailwind",
   "version": "4.0.0",
-  "license": "MIT",
   "description": "Trying-out Tailwind CSS with Parcel",
-  "packageManager": "pnpm@11.18.0",
+  "license": "MIT",
   "scripts": {
     "dev": "parcel serve src/index.html -p 8080 --open",
     "build": "parcel build --dist-dir dist src/index.html",
     "lint": "oxlint .",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
     "clean": "rm -rf .parcel-cache dist",
     "serve": "pnpx serve dist",
     "start": "pnpm clean && pnpm build && pnpm serve"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "tailwindcss": "4.3.3"
   },
   "devDependencies": {
     "@parcel/transformer-image": "2.16.4",
     "@tailwindcss/postcss": "4.3.3",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.4",
+    "oxfmt": "0.63.0",
     "oxlint": "1.78.0",
     "parcel": "2.16.4",
     "postcss": "^8.5.26",
     "typescript": "5.9.3"
   },
-  "dependencies": {
-    "react": "19.2.8",
-    "react-dom": "19.2.8",
-    "tailwindcss": "4.3.3"
-  }
+  "packageManager": "pnpm@11.18.0"
 }
