@@ -3,6 +3,7 @@
   "version": "4.0.0",
   "license": "MIT",
   "description": "Trying-out Tailwind CSS with Parcel",
+  "packageManager": "pnpm@11.18.0",
   "scripts": {
     "dev": "parcel serve src/index.html -p 8080 --open",
     "build": "parcel build --dist-dir dist src/index.html",
