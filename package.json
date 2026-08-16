@@ -14,7 +14,7 @@
     "format": "oxfmt .",
     "format:check": "oxfmt --check .",
     "clean": "rm -rf .parcel-cache dist",
-    "serve": "pnpx serve dist",
+    "serve": "pnpm exec serve dist",
     "start": "pnpm clean && pnpm build && pnpm serve"
   },
   "dependencies": {
@@ -34,6 +34,7 @@
     "oxlint": "1.78.0",
     "parcel": "2.16.4",
     "postcss": "^8.5.26",
+    "serve": "14.2.6",
     "typescript": "7.0.2",
     "vitest": "4.1.10"
   },
