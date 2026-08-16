@@ -1,29 +1,42 @@
 {
   "name": "parcel-typescript-react-tailwind",
-  "version": "4.0.0",
-  "license": "MIT",
+  "version": "5.0.0",
   "description": "Trying-out Tailwind CSS with Parcel",
+  "license": "MIT",
+  "type": "module",
   "scripts": {
     "dev": "parcel serve src/index.html -p 8080 --open",
     "build": "parcel build --dist-dir dist src/index.html",
+    "lint": "oxlint .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "typecheck": "tsc --noEmit",
+    "format": "oxfmt .",
+    "format:check": "oxfmt --check .",
     "clean": "rm -rf .parcel-cache dist",
-    "serve": "pnpx serve dist",
+    "serve": "pnpm exec serve dist",
     "start": "pnpm clean && pnpm build && pnpm serve"
+  },
+  "dependencies": {
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "tailwindcss": "4.3.3"
   },
   "devDependencies": {
     "@parcel/transformer-image": "2.16.4",
-    "@types/react": "18.3.27",
-    "@types/react-dom": "18.3.7",
-    "autoprefixer": "10.4.24",
+    "@tailwindcss/postcss": "4.3.3",
+    "@testing-library/dom": "10.4.1",
+    "@testing-library/react": "16.3.2",
+    "@types/react": "19.2.18",
+    "@types/react-dom": "19.2.4",
+    "jsdom": "30.0.1",
+    "oxfmt": "0.63.0",
+    "oxlint": "1.78.0",
     "parcel": "2.16.4",
-    "postcss": "8.5.6",
-    "process": "0.11.10",
-    "typescript": "5.9.3"
+    "postcss": "^8.5.26",
+    "serve": "14.2.6",
+    "typescript": "7.0.2",
+    "vitest": "4.1.10"
   },
-  "dependencies": {
-    "postcss-import": "16.1.1",
-    "react": "18.3.1",
-    "react-dom": "18.3.1",
-    "tailwindcss": "3.4.19"
-  }
+  "packageManager": "pnpm@11.18.0"
 }
