@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   postcss-import:
-    specifier: 16.1.1
-    version: 16.1.1(postcss@8.5.28)
+    specifier: 16.2.0
+    version: 16.2.0(postcss@8.5.28)
   react:
     specifier: 18.3.1
     version: 18.3.1
@@ -2083,8 +2083,8 @@ packages:
       resolve: 1.22.8
     dev: false
 
-  /postcss-import@16.1.1(postcss@8.5.28):
-    resolution: {integrity: sha512-2xVS1NCZAfjtVdvXiyegxzJ447GyqCeEI5V7ApgQVOWnros1p5lGNovJNapwPpMombyFBfqDwt7AD3n2l0KOfQ==}
+  /postcss-import@16.2.0(postcss@8.5.28):
+    resolution: {integrity: sha512-0mQUGlSp87Zl70K58RNwQAN1WS9plFE6KWGui9nyK6ninduMyjW/Khaoy/BpBoFTBh7ndAvAKrSKVbwy6vd/BA==}
     engines: {node: '>=18.0.0'}
     peerDependencies:
       postcss: ^8.0.0
