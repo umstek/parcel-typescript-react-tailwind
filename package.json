@@ -14,7 +14,7 @@
     "@parcel/transformer-image": "2.16.4",
     "@types/react": "18.3.31",
     "@types/react-dom": "18.3.7",
-    "autoprefixer": "10.4.24",
+    "autoprefixer": "10.5.6",
     "parcel": "2.16.4",
     "postcss": "8.5.28",
     "process": "0.11.10",
