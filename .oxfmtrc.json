@@ -1,0 +1,15 @@
+{
+  "printWidth": 100,
+  "semi": true,
+  "singleQuote": false,
+  "trailingComma": "all",
+  "sortPackageJson": true,
+  "ignorePatterns": [
+    "node_modules/**",
+    "dist/**",
+    ".parcel-cache/**",
+    "coverage/**",
+    "pnpm-lock.yaml",
+    "static/**"
+  ]
+}

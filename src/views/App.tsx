@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import "../styles/main.pcss";
 
 import Card from "../components/Card/index";
