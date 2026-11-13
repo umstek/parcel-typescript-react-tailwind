@@ -34,7 +34,7 @@
     "oxlint": "1.93.0",
     "parcel": "2.16.4",
     "postcss": "^8.5.26",
-    "serve": "14.2.7",
+    "serve": "14.2.8",
     "typescript": "7.0.2",
     "vitest": "4.1.12"
   },
